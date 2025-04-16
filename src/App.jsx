@@ -47,7 +47,7 @@ const handleMouseMove = (e) =>{
     <div className="container" onWheel={handleWheel}>
       <div className="boxes">
         <div className="box">
-          <h2 className="title">Click event</h2>
+          <h2 className="title">Klik Event React</h2>
           <button className="button" onClick={handleClick}>
             {text}
           </button>
@@ -57,7 +57,7 @@ const handleMouseMove = (e) =>{
           style={{ backgroundColor: color }}
           onDoubleClick={handleDoubleClick}
         >
-          <h2 className="title">Double-click to change color</h2>
+          <h2 className="title">Doble Klik untuk merubah warna</h2>
         </div>
         <div
           className="box"
@@ -65,11 +65,11 @@ const handleMouseMove = (e) =>{
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <h2 className="title">Hover over me!</h2>
+          <h2 className="title">Arahkan Mouse Ke sini Untuk efeknya</h2>
         </div>
       </div>
       <div className="coordinatesContainer" onMouseMove={handleMouseMove}>
-        <h2 className="title">Mouse Coordinates</h2>
+        <h2 className="title">Koordina Mouse</h2>
         <p className="coordsText">
           X: {coords.x}, Y: {coords.y}
         </p>
