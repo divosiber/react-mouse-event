@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(134, 161, 186);
+}
+
+@keyframes fade {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* Tambahan media query buat HP */
+@media (max-width: 600px) {
+  .boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
+
